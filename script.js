@@ -11,6 +11,8 @@ function checkDestination() {
     }
 
     else {
+        result.style.color = "black";
+
         // Lagos
         if (userAccountBalance >= 85000) {
             destinationCity = "Lagos";
